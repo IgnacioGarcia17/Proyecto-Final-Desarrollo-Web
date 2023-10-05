@@ -1,0 +1,191 @@
+html{
+    background-color: rgb(255, 252, 245);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+
+header img{
+    width: 100px;
+}
+
+.contenedor-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 60px;
+}
+
+.card{
+    background-color: white;
+    width: 810px;
+    height: 610px;
+    border-top: 3px solid red;
+    overflow: hidden;
+}
+
+.card img{
+    width: 100%;
+    height: 450px;
+
+}
+
+section h1{
+    margin: 40px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #172030;
+    color: white;
+    padding: 22px 20px;
+    justify-content: center;
+}
+
+.tipo-de-noticia{
+    color: rgba(105, 105, 105, 0.884);
+    font-size: 12px;
+}
+
+.contenedor-flex2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 60px;
+}
+
+.card2{
+    background-color: white;
+    width: 350px;
+    height: 380px;
+    border-top: 3px solid red;
+    overflow: hidden;
+}
+
+.card2 img{
+    width: 100%;
+    height: 200px;
+}
+
+.card-text2{
+    height: 150px;
+    padding: 10px;
+}
+
+header nav ul li a{
+    text-decoration: none!important;
+    color: white;
+}
+
+.plantel-subtitulo{
+    display: flex;
+    justify-content: left;
+    font-size: 38px;
+    color: #141d2e;
+    padding: 20px 45px 20px 45px;
+}
+
+.cardj{
+    background-color: white;
+    width: 315px;
+    height: 300px;
+    border-top: 3px solid red;
+    overflow: hidden;
+}
+
+.cardj img{
+        width: 100%;
+        height: 200px;
+}
+
+.contenedor-jugadores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 60px;
+}
+
+.card-jugador{
+        height: 150px;
+        padding: 10px;
+        font-size: 21px;
+}
+
+footer{
+    color: #172030;
+}
+
+.cardr{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border: 3px solid red;
+    overflow: hidden;
+}
+
+.cardr img{
+    width: 100%;
+    height: 277px;
+    padding: 5px;
+}
+
+.tienda-titulo{
+    display: flex;
+    justify-content: left;
+    font-size: 38px;
+    color: white;
+    padding: 20px 45px 20px 110px;
+    font-size: 55px;
+    background-color: #172030;
+}
+
+.card-tienda{
+        height: 150px;
+        padding: 10px;
+        font-size: 15.4px;
+}
+
+.subtitulo-tienda{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: #172030;
+    padding-top: 20px;
+}
+
+.prenda1{
+    display: flex;
+    justify-content: center;
+}
+
+.plantel-titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    color: white;
+    padding: 20px 45px 20px 45px;
+    font-size: 55px;
+    background-color: #172030;
+}
