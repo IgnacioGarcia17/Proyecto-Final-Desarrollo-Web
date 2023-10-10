@@ -189,3 +189,16 @@ footer{
     font-size: 55px;
     background-color: #172030;
 }
+
+.card-texthistoria{
+    height: 150px;
+    padding: 10px;
+}
+
+.card-texthistoria h2{
+    text-align: center;
+}
+
+nav a:hover {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 1);
+}
