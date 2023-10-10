@@ -200,5 +200,60 @@ footer{
 }
 
 nav a:hover {
-    text-shadow: 0 0 5px rgba(255, 255, 255, 1);
+        color: white;
+        font-size: 25px;
+        text-shadow: 5px 5px 10px white;
+        cursor: pointer;
 }
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+    margin: 1rem 3rem 3rem 3rem;
+    gap: 1rem;
+}
+
+.contenedor div{
+    height: 300px;
+}
+
+.contenedor div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "img1 img1 img1"
+    "img2 img3 img3"
+    "img4 img6 img5"
+    ;
+}
+
+.img-uno{
+    grid-area: img1;
+} 
+
+.img-dos{
+    grid-area: img2;
+} 
+
+.img-tres{
+    grid-area: img3;
+} 
+
+.img-cuatro{
+    grid-area: img4;
+} 
+
+.img-cinco{
+    grid-area: img5;
+} 
+
+.img-seis{
+    grid-area: img6;
+} 
