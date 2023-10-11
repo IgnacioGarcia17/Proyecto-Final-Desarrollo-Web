@@ -48,7 +48,7 @@ header img{
 .card img{
     width: 100%;
     height: 450px;
-
+    object-fit: contain;
 }
 
 section h1{
@@ -85,6 +85,7 @@ section h1{
 .card2 img{
     width: 100%;
     height: 200px;
+    object-fit: cover;
 }
 
 .card-text2{
@@ -116,6 +117,7 @@ header nav ul li a{
 .cardj img{
         width: 100%;
         height: 200px;
+        object-fit: cover;
 }
 
 .contenedor-jugadores{
@@ -149,6 +151,7 @@ footer{
     width: 100%;
     height: 277px;
     padding: 5px;
+    object-fit: contain;
 }
 
 .tienda-titulo{
@@ -257,3 +260,98 @@ nav a:hover {
 .img-seis{
     grid-area: img6;
 } 
+
+.cardnh{
+    background-color: white;
+    width: 350px;
+    height: 380px;
+    border-top: 3px solid red;
+    overflow: hidden;
+}
+
+.cardnh img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 768px){
+    .contenedor{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "img1 img1"
+        "img2 img2"
+        "img3 img3"
+        "img4 img5"
+        "img6 img6"
+        ;
+    }
+
+    .tienda-titulo{
+        padding: 20px 0px 20px 25px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .contenedor{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6"
+        ;
+    }
+
+    .card{
+        height: auto;
+    }
+
+    .card2{
+        height: auto;
+    }
+
+    .card-text2{
+        height: auto;
+    }
+
+    .contenedor-jugadores{
+        height: auto;
+    }
+
+    .cardj{
+        height: auto;
+    }
+
+    .card-texthistoria{
+    height: auto;
+}
+
+    .cardnh{
+        height: auto;
+    }
+
+    .card-tienda{
+        height: auto;
+        width: auto;
+        justify-content: center;
+    }
+
+    .prenda1{
+        height: auto;
+        width: auto;
+
+    }
+
+    .cardr{
+        height: auto;
+    }
+
+    .tienda-titulo{
+        justify-content: center;
+        padding: 20px 0px 20px 0px;
+    }
+}
