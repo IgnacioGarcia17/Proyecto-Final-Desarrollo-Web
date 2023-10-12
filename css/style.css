@@ -93,6 +93,11 @@ section h1{
     padding: 10px;
 }
 
+.card-text2 h2{
+    font-size: 22px;
+}
+
+
 header nav ul li a{
     text-decoration: none!important;
     color: white;
@@ -115,9 +120,9 @@ header nav ul li a{
 }
 
 .cardj img{
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
 .contenedor-jugadores{
@@ -130,9 +135,13 @@ header nav ul li a{
 }
 
 .card-jugador{
-        height: 150px;
-        padding: 10px;
-        font-size: 21px;
+    height: 150px;
+    padding: 10px;
+    font-size: 21px;
+}
+
+.card-jugador h3{
+    display: flex;
 }
 
 footer{
@@ -165,9 +174,17 @@ footer{
 }
 
 .card-tienda{
-        height: 150px;
-        padding: 10px;
-        font-size: 15.4px;
+    height: 150px;
+    padding: 10px;
+    font-size: 15.4px;
+}
+
+.card-tienda h3{
+    font-size: 17px;
+}
+
+.card-tienda h4{
+    font-size: 16px;
 }
 
 .subtitulo-tienda{
@@ -181,6 +198,7 @@ footer{
 .prenda1{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .plantel-titulo{
@@ -202,12 +220,12 @@ footer{
     text-align: center;
 }
 
-nav a:hover {
-        color: white;
-        font-size: 25px;
-        text-shadow: 5px 5px 10px white;
-        cursor: pointer;
-}
+/* nav a:hover {
+    color: white;
+    font-size: 25px;
+    text-shadow: 5px 5px 10px white;
+    cursor: pointer;
+} */
 
 .contenedor{
     display: grid;
@@ -354,4 +372,43 @@ nav a:hover {
         justify-content: center;
         padding: 20px 0px 20px 0px;
     }
+}
+
+.menu-ul{
+    align-items: center;
+}
+
+.menu-ul li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.menu{
+    flex-grow: 0;
+}
+
+.menu-button{
+    outline: none;
+}
+
+.menu-button:focus{
+    box-shadow: none;
+}
+
+.menu-ul{
+    align-items: right;
+}
+
+.menu-fondo{
+    background-color: red;
+}
+
+.menu-nav{
+    padding: 0;
+}
+
+.menu-div{
+    background-color: red;
 }
