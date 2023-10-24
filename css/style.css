@@ -8,7 +8,7 @@ html{
     box-sizing: border-box;
 }
 
-header{
+/* header{
     background-color: red;
     display: flex;
     justify-content: space-between;
@@ -27,17 +27,17 @@ header nav ul{
 
 header img{
     width: 100px;
-}
+} */
 
-.contenedor-flex{
+/* .contenedor-flex{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
     margin: 60px;
-}
+} */
 
-.card{
+/* .card{
     background-color: white;
     width: 810px;
     height: 610px;
@@ -49,9 +49,9 @@ header img{
     width: 100%;
     height: 450px;
     object-fit: contain;
-}
+} */
 
-section h1{
+/* section h1{
     margin: 40px;
     font-size: 50px;
     text-align: center;
@@ -59,22 +59,22 @@ section h1{
     color: white;
     padding: 22px 20px;
     justify-content: center;
-}
+} */
 
-.tipo-de-noticia{
+/* .tipo-de-noticia{
     color: rgba(105, 105, 105, 0.884);
     font-size: 12px;
-}
+} */
 
-.contenedor-flex2{
+/* .contenedor-flex2{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
     margin: 60px;
-}
+} */
 
-.card2{
+/* .card2{
     background-color: white;
     width: 350px;
     height: 380px;
@@ -86,32 +86,32 @@ section h1{
     width: 100%;
     height: 200px;
     object-fit: cover;
-}
+} */
 
-.card-text2{
+/* .card-text2{
     height: 150px;
     padding: 10px;
 }
 
 .card-text2 h2{
     font-size: 22px;
-}
+} */
 
 
-header nav ul li a{
+/* header nav ul li a{
     text-decoration: none!important;
     color: white;
-}
+} */
 
-.plantel-subtitulo{
+/* .plantel-subtitulo{
     display: flex;
     justify-content: left;
     font-size: 38px;
     color: #141d2e;
     padding: 20px 45px 20px 45px;
-}
+} */
 
-.cardj{
+/* .cardj{
     background-color: white;
     width: 315px;
     height: 300px;
@@ -123,18 +123,18 @@ header nav ul li a{
     width: 100%;
     height: 200px;
     object-fit: cover;
-}
+} */
 
-.contenedor-jugadores{
+/* .contenedor-jugadores{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
     margin: 60px;
-}
+} */
 
-.card-jugador{
+/* .card-jugador{
     height: 150px;
     padding: 10px;
     font-size: 21px;
@@ -142,9 +142,9 @@ header nav ul li a{
 
 .card-jugador h3{
     display: flex;
-}
+} */
 
-footer{
+/* footer{
     color: #172030;
 }
 
@@ -161,9 +161,9 @@ footer{
     height: 277px;
     padding: 5px;
     object-fit: contain;
-}
+} */
 
-.tienda-titulo{
+/* .tienda-titulo{
     display: flex;
     justify-content: left;
     font-size: 38px;
@@ -171,9 +171,9 @@ footer{
     padding: 20px 45px 20px 110px;
     font-size: 55px;
     background-color: #172030;
-}
+} */
 
-.card-tienda{
+/* .card-tienda{
     height: 150px;
     padding: 10px;
     font-size: 15.4px;
@@ -185,23 +185,23 @@ footer{
 
 .card-tienda h4{
     font-size: 16px;
-}
+} */
 
-.subtitulo-tienda{
+/* .subtitulo-tienda{
     display: flex;
     justify-content: center;
     font-size: 35px;
     color: #172030;
     padding-top: 20px;
-}
+} */
 
-.prenda1{
+/* .prenda1{
     display: flex;
     justify-content: center;
     text-align: center;
-}
+} */
 
-.plantel-titulo{
+/* .plantel-titulo{
     display: flex;
     justify-content: center;
     font-size: 38px;
@@ -209,16 +209,16 @@ footer{
     padding: 20px 45px 20px 45px;
     font-size: 55px;
     background-color: #172030;
-}
+} */
 
-.card-texthistoria{
+/* .card-texthistoria{
     height: 150px;
     padding: 10px;
 }
 
 .card-texthistoria h2{
     text-align: center;
-}
+} */
 
 /* nav a:hover {
     color: white;
@@ -227,7 +227,7 @@ footer{
     cursor: pointer;
 } */
 
-.contenedor{
+/* .contenedor{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, auto);
@@ -248,38 +248,38 @@ footer{
 .contenedor{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: 
+    grid-template-areas:
     "img1 img1 img1"
     "img2 img3 img3"
     "img4 img6 img5"
     ;
-}
+} */
 
-.img-uno{
+/* .img-uno{
     grid-area: img1;
-} 
+}
 
 .img-dos{
     grid-area: img2;
-} 
+}
 
 .img-tres{
     grid-area: img3;
-} 
+}
 
 .img-cuatro{
     grid-area: img4;
-} 
+}
 
 .img-cinco{
     grid-area: img5;
-} 
+}
 
 .img-seis{
     grid-area: img6;
-} 
+} */
 
-.cardnh{
+/* .cardnh{
     background-color: white;
     width: 350px;
     height: 380px;
@@ -291,13 +291,13 @@ footer{
     width: 100%;
     height: 200px;
     object-fit: contain;
-}
+} */
 
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){
     .contenedor{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        grid-template-areas: 
+        grid-template-areas:
         "img1 img1"
         "img2 img2"
         "img3 img3"
@@ -309,12 +309,12 @@ footer{
     .tienda-titulo{
         padding: 20px 0px 20px 25px;
     }
-}
+} */
 
-@media screen and (max-width: 425px){
+/* @media screen and (max-width: 425px){
     .contenedor{
         grid-template-columns: repeat(1, 1fr);
-        grid-template-areas: 
+        grid-template-areas:
         "img1"
         "img2"
         "img3"
@@ -322,9 +322,9 @@ footer{
         "img5"
         "img6"
         ;
-    }
+    } */
 
-    .card{
+    /* .card{
         height: auto;
     }
 
@@ -372,9 +372,9 @@ footer{
         justify-content: center;
         padding: 20px 0px 20px 0px;
     }
-}
+} */
 
-.menu-ul{
+/* .menu-ul{
     align-items: center;
 }
 
@@ -383,9 +383,9 @@ footer{
     font-size: 18px;
     font-weight: bold;
 }
+ */
 
-
-.menu{
+/* .menu{
     flex-grow: 0;
 }
 
@@ -395,13 +395,9 @@ footer{
 
 .menu-button:focus{
     box-shadow: none;
-}
+} */
 
-.menu-ul{
-    align-items: right;
-}
-
-.menu-fondo{
+/* .menu-fondo{
     background-color: red;
 }
 
@@ -412,3 +408,8 @@ footer{
 .menu-div{
     background-color: red;
 }
+
+.contenedor div img{
+    border-radius: 6px;
+    box-shadow: 12px 7px 25px 7px;
+} */

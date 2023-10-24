@@ -1,0 +1,290 @@
+@import "./components/header";
+
+.contenedor-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 60px;
+}
+
+.card{
+    background-color: white;
+    width: 810px;
+    height: 610px;
+    border-top: 3px solid red;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        height: 450px;
+        object-fit: contain;
+    }
+}
+
+section{
+    h1{
+        margin: 40px;
+        font-size: 50px;
+        text-align: center;
+        background-color: #172030;
+        color: white;
+        padding: 22px 20px;
+        justify-content: center;
+    }
+}
+
+.tipo-de-noticia{
+    color: rgba(105, 105, 105, 0.884);
+    font-size: 12px;
+}
+
+.contenedor-flex2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 60px;
+}
+
+.card2{
+    background-color: white;
+    width: 350px;
+    height: 380px;
+    border-top: 3px solid red;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+.card-text2{
+    height: 150px;
+    padding: 10px;
+
+    h2{
+        font-size: 22px;
+    }
+}
+
+.plantel-titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    color: white;
+    padding: 20px 45px 20px 45px;
+    font-size: 55px;
+    background-color: #172030;
+}
+
+.plantel-subtitulo{
+    display: flex;
+    justify-content: left;
+    font-size: 38px;
+    color: #141d2e;
+    padding: 20px 45px 20px 45px;
+}
+
+.cardj{
+    background-color: white;
+    width: 315px;
+    height: 300px;
+    border-top: 3px solid red;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+.contenedor-jugadores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 60px;
+}
+
+.card-jugador{
+    height: 150px;
+    padding: 10px;
+    font-size: 21px;
+    
+    h3{
+        display: flex;
+    }
+}
+
+footer{
+    color: #172030;
+}
+
+.cardr{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border: 3px solid red;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        height: 277px;
+        padding: 5px;
+        object-fit: contain;
+    }
+}
+
+.tienda-titulo{
+    display: flex;
+    justify-content: left;
+    font-size: 38px;
+    color: white;
+    padding: 20px 45px 20px 110px;
+    font-size: 55px;
+    background-color: #172030;
+}
+
+.card-tienda{
+    height: 150px;
+    padding: 10px;
+    font-size: 15.4px;
+
+    h3{
+        font-size: 17px;
+    }
+
+        h4{
+            font-size: 16px;
+        }
+}
+
+.subtitulo-tienda{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: #172030;
+    padding-top: 20px;
+}
+
+.prenda1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-texthistoria{
+    height: 150px;
+    padding: 10px;
+
+    h2{
+        text-align: center;
+    }
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+    margin: 1rem 3rem 3rem 3rem;
+    gap: 1rem;
+
+    div{
+        height: 300px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 6px;
+            box-shadow: 12px 7px 25px 7px;
+        }
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+    "img1 img1 img1"
+    "img2 img3 img3"
+    "img4 img6 img5"
+}
+
+.img-uno{
+    grid-area: img1;
+}
+
+.img-dos{
+    grid-area: img2;
+}
+
+.img-tres{
+    grid-area: img3;
+}
+
+.img-cuatro{
+    grid-area: img4;
+}
+
+.img-cinco{
+    grid-area: img5;
+}
+
+.img-seis{
+    grid-area: img6;
+}
+
+.cardnh{
+    background-color: white;
+    width: 350px;
+    height: 380px;
+    border-top: 3px solid red;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+    }
+}
+
+.menu-ul{
+    align-items: right;
+
+    li{
+        a{
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+}
+
+.menu{
+    flex-grow: 0;
+}
+
+.menu-button{
+    outline: none;
+}
+
+.menu-button:focus{
+    box-shadow: none;
+}
+
+.menu-fondo{
+    background-color: red;
+}
+
+.menu-nav{
+    padding: 0;
+}
+
+.menu-div{
+    background-color: red;
+}
+
+@import "./utilities/media-queries";

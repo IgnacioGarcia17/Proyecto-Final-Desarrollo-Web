@@ -1,0 +1,25 @@
+header{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+        nav ul{
+            list-style: none;
+            display: flex;
+            column-gap: 10px;
+            text-transform: uppercase;
+            color: white;
+        
+            li a{
+                text-decoration: none!important;
+                color: white;
+            }
+        }
+    
+    img{
+        width: 100px;
+    }
+}
