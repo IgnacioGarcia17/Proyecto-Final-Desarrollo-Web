@@ -121,10 +121,6 @@ section{
     }
 }
 
-footer{
-    color: #172030;
-}
-
 .cardr{
     background-color: white;
     width: 300px;
@@ -286,5 +282,7 @@ footer{
 .menu-div{
     background-color: red;
 }
+
+@import "./components/footer";
 
 @import "./utilities/media-queries";
