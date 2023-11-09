@@ -23,6 +23,12 @@
     padding: 35px 20px;
 }
 
+@media screen and (max-width:550px){
+    .pie-de-pagina .grupo-1 .footerbox figure img{
+        max-width: 35vw;
+    }
+}
+
 @media screen and (max-width: 425px){
     .contenedor{
         grid-template-columns: repeat(1, 1fr);
